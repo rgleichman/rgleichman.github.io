@@ -37,7 +37,7 @@ I also started working on using these sensors with the PR2 using ROS and roshask
 
 ShopType is a typing game that was created in 2011 for Art 23 AC, a class that involved teaching Chinese speakers in Oakland CA how to use computers. Jeremy Blalock and I were the programmers for this game. I put this on GitHub in 2015; all commits are bug fixes.
 ###[Fixit](https://github.com/phoebesimon/fixit)###
-Fixit was our group's project for CS 169 (Software Engineering). We (Phoebe Simon, Chris Turney, Frank Yü,  and I) collaborated with a UC Berkeley housing employee to make a new maintenance request website using Ruby on Rails. It is notable for having very high test coverage.
+Fixit was our group's project for CS 169 (Software Engineering). We (Phoebe Simon, Chris Turney, Frank Yü,  and I) collaborated with a UC Berkeley housing employee to make a new maintenance request website using Ruby on Rails. This project is notable for having very high test coverage.
 ###[Heartbeat](https://github.com/rgleichman/heartBeat)###
 Heartbeat is an Android app that measures your heart rate. To use it, you place your phone's microphone directly on your chest, and the app listens for volume peaks. I wrote this while learning Android development.
 ###[Trontium Reactor](https://github.com/rgleichman/reactor)###
