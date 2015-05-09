@@ -5,7 +5,7 @@ Headers link to GitHub projects. This list is not exhaustive, but it does includ
 ## Recent Projects ##
 
 ### [Glance](https://github.com/rgleichman/glance) (a visual representation of Haskell) ##
-Glance is my attempt at representing Haskell visually. It is designed (at least initially) to be automatically generated from textual Haskell code. Glance is still a work in progress, but the [GitHub readme](https://github.com/rgleichman/glance/blob/master/README.md) has a few preliminary drawings created using the Haskell [diagrams](http://projects.haskell.org/diagrams/) package.
+Glance is my attempt at representing Haskell visually. It is designed (at least initially) to be automatically generated from textual Haskell code. [Here](https://docs.google.com/document/d/1iLP4izhdJU2qlU2nasb7dfQAm7hytcl5IYcgi7dXHSk/edit?usp=sharing) is a first draft of a Google Doc introducing the language; please comment. Glance is currently in the design stage.
 
 
 ### [smock](https://github.com/rgleichman/smock) ###
