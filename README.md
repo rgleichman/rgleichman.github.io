@@ -1,7 +1,10 @@
-[My GitHub](https://github.com/rgleichman)
+# Robbie Gleichman #
+###[My GitHub](https://github.com/rgleichman)###
 
 # Projects #
 Headers link to GitHub projects. This list is not exhaustive, but it does include most of my public GitHub projects.
+
+
 ## Recent Projects ##
 
 ### [Glance](https://github.com/rgleichman/glance) (a visual representation of Haskell) ##
