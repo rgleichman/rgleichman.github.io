@@ -7,7 +7,7 @@ Headers link to GitHub projects. This list is not exhaustive, but it does includ
 ## Robotics Projects ##
 
 ### Carbon Robotics iPad drawing app ###
-For [Carbon Robotics](http://www.carbon.ai), I wrote an iPad app in Swift where the user draws a path on the iPad, and then sends the path to the robot to be executed. [Here is a video](https://www.youtube.com/watch?v=Emq8VNhJx2s) that shows someone using the app to decorate a cake. I also wrote most of the robot side software for this project including code that recives the path from the robot, interpolates and scales the path, and runs inverse kinematics on each position in the path to find the joint angles for the final arm trajectory.
+[Carbon Robotics](http://www.carbon.ai) is building a low cost robotic arm for hobbyists and households. I wrote an iPad app in Swift where the user draws a path on the iPad, and then sends the path to the robot to be executed. [Here is a video](https://www.youtube.com/watch?v=Emq8VNhJx2s) that shows someone using the app to decorate a cake. I also wrote most of the robot side software for this project including code that receives the path from the robot, interpolates and scales the path, and runs inverse kinematics on each position in the path to find the joint angles for the final arm trajectory.
 
 ### [roshask](https://github.com/acowley/roshask) ###
 roshask is the [ROS](http://www.ros.org) Haskell library written by Anthony Cowley. I added support for [ROS service](http://wiki.ros.org/Services) clients. This [pull request](https://github.com/acowley/roshask/pull/24) has the commits that were merged. If you are curious about the development process, here is a [code review](https://github.com/acowley/roshask/pull/22) with feedback from Anthony.
@@ -34,7 +34,7 @@ I also started working on using these sensors with the PR2 using ROS and roshask
 See above
 
 ### [Glance](https://github.com/rgleichman/glance) (a visual representation of Haskell) ###
-Glance is my attempt at representing Haskell visually. It is designed (at least initially) to be automatically generated from textual Haskell code. [Here](https://docs.google.com/document/d/1iLP4izhdJU2qlU2nasb7dfQAm7hytcl5IYcgi7dXHSk/edit?usp=sharing) is a first draft of a Google Doc introducing the language; please comment. Glance is currently in the design stage.
+Glance is a visual representation of Haskell. It is designed (at least initially) to be automatically generated from textual Haskell code. [Here](https://docs.google.com/document/d/1iLP4izhdJU2qlU2nasb7dfQAm7hytcl5IYcgi7dXHSk/edit?usp=sharing) is a first draft of a Google Doc introducing the language; please comment. Glance is currently in the design stage.
 
 ### [smock](https://github.com/rgleichman/smock) ###
 smock is a function mocking framework I wrote for Haskell. It is experimental and not very practical; however, I did learn about overlapping instances and data families in Haskell.
