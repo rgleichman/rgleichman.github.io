@@ -33,8 +33,8 @@ I also started working on using these sensors with the PR2 using ROS and roshask
 ### [roshask](https://github.com/acowley/roshask) ###
 See above
 
-### [Glance](https://github.com/rgleichman/glance) (a visual representation of Haskell) ###
-Glance is a visual representation of Haskell. It is designed (at least initially) to be automatically generated from textual Haskell code. [Here](https://docs.google.com/document/d/1iLP4izhdJU2qlU2nasb7dfQAm7hytcl5IYcgi7dXHSk/edit?usp=sharing) is a first draft of a Google Doc introducing the language; please comment. Glance is currently in the design stage.
+### Glance, a visual representation of Haskell ###
+Glance is a visual representation of Haskell. It is designed (at least initially) to be automatically generated from textual Haskell code. I will be giving a talk presenting the design of Glance to the Santa Monica Haskell Users Group in January 2016. Glance is currently in the design stage.
 
 ### [smock](https://github.com/rgleichman/smock) ###
 smock is a function mocking framework I wrote for Haskell. It is experimental and not very practical; however, I did learn about overlapping instances and data families in Haskell.
