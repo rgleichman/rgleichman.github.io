@@ -10,15 +10,33 @@
 
 <p>Headers link to GitHub projects. This list is not exhaustive, but it does include most of my public GitHub projects.</p>
 
-<h2>Robotics Projects</h2>
+<h2>Haskell Projects</h2>
 
-<h3>Carbon Robotics iPad drawing app</h3>
+<h3><a href="https://github.com/rgleichman/glance">Glance, a visual representation of Haskell</a></h3>
 
-<p><a href="http://www.carbon.ai">Carbon Robotics</a> is building a low cost robotic arm for hobbyists and households. I wrote an iPad app in Swift where the user draws a path on the iPad, and then sends the path to the robot to be executed. <a href="https://www.youtube.com/watch?v=Emq8VNhJx2s">Here is a video</a> that shows someone using the app to decorate a cake. I also wrote most of the robot side software for this project including code that receives the path from the robot, interpolates and scales the path, and runs inverse kinematics on each position in the path to find the joint angles for the final arm trajectory.</p>
+<p>Glance is a visual programming language for Haskell. Currently, Glance creates a visual representation of textual Haskell code as an SVG diagram.</p>
 
 <h3><a href="https://github.com/acowley/roshask">roshask</a></h3>
 
 <p>roshask is the <a href="http://www.ros.org">ROS</a> Haskell library written by Anthony Cowley. I added support for <a href="http://wiki.ros.org/Services">ROS service</a> clients. This <a href="https://github.com/acowley/roshask/pull/24">pull request</a> has the commits that were merged. If you are curious about the development process, here is a <a href="https://github.com/acowley/roshask/pull/22">code review</a> with feedback from Anthony.</p>
+
+<h3><a href="https://github.com/rgleichman/smock">smock</a></h3>
+
+<p>smock is a function mocking framework I wrote for Haskell. It is experimental and not very practical; however, I did learn about overlapping instances and data families in Haskell.</p>
+
+<h3><a href="https://github.com/rgleichman/skip">Haskell immutable skip list</a></h3>
+
+<p>This is an experimental module I wrote that can be used for quickly searching through a possibly infinite ascending list. When I tested it, the skip list was faster at creating its searchable data structure than <a href="http://hackage.haskell.org/package/containers-0.5.6.3/docs/Data-Set.html">Data.Set in containers</a>. The skip list's data structure also used less memory. However, the skip list was slower at finding elements, so it would only be faster overall if your code does few searches relative to list size.</p>
+
+<h2>Robotics Projects</h2>
+
+<h3><a href="https://github.com/acowley/roshask">roshask</a></h3>
+
+<p>See above</p>
+
+<h3>Carbon Robotics iPad drawing app</h3>
+
+<p><a href="http://www.carbon.ai">Carbon Robotics</a> is building a low cost robotic arm for hobbyists and households. I wrote an iPad app in Swift where the user draws a path on the iPad, and then sends the path to the robot to be executed. <a href="https://www.youtube.com/watch?v=Emq8VNhJx2s">Here is a video</a> that shows someone using the app to decorate a cake. I also wrote most of the robot side software for this project including code that receives the path from the robot, interpolates and scales the path, and runs inverse kinematics on each position in the path to find the joint angles for the final arm trajectory.</p>
 
 <h3><a href="https://github.com/rgleichman/rapprentice">Learning from Demonstration</a></h3>
 
@@ -26,7 +44,7 @@
 
 <p>A variation of this approach is to record multiple demonstrations, with the object to be manipulated placed in varying initial states. When asked to preform a task, the robot picks one of its many recorded demonstrations. I helped develop a bootstrapping algorithm that enables the robot to learn from its past successes and failures by improving its choice of demonstration.</p>
 
-<p>For a very specific simulated knot tying task, the bootstrapping algorithm improved the robot's success rate from 60% to 98%. I worked directly with Or Weizman, Ankush Gupta, and Dylan Hadfield-Menell on developing bootstrapping. This work built upon work done by John Schulman, Jonathan Ho, and Cameron Lee (<a href="http://rll.berkeley.edu/isrr2013lfd/">videos and pdf of their paper</a>). This work was done in Pieter Abbeel's lab at UC Berkeley, and the lab's current learning from demonstration work can be found <a href="http://lfd.readthedocs.org/en/latest/">here</a>.</p>
+<p>For a very specific simulated knot tying task, the bootstrapping algorithm improved the robot's success rate from 60% to 98%. I worked directly with Or Weizman, Ankush Gupta, and Dylan Hadfield-Menell on developing bootstrapping. This work built upon work done by John Schulman, Jonathan Ho, and Cameron Lee (<a href="http://rll.berkeley.edu/isrr2013lfd/">videos and PDF of their paper</a>). This work was done in Pieter Abbeel's lab at UC Berkeley, and the lab's current learning from demonstration work can be found <a href="http://lfd.readthedocs.org/en/latest/">here</a>.</p>
 
 <h3>Nerfinator</h3>
 
@@ -38,24 +56,6 @@
 
 <p>For this project I wrote a simple 2D gripper simulator in Haskell using <a href="http://helm-engine.org/">Helm</a> (<a href="https://github.com/rgleichman/sense">GitHub</a>).
 I also started working on using these sensors with the PR2 using ROS and roshask (<a href="https://github.com/rgleichman/uwsensor_demos">GitHub</a>). Unfortunately, these experimental sensors broke often and had to be sent back before I could make much progress.</p>
-
-<h2>Haskell Projects</h2>
-
-<h3><a href="https://github.com/acowley/roshask">roshask</a></h3>
-
-<p>See above</p>
-
-<h3><a href="https://github.com/rgleichman/glance">Glance, a visual representation of Haskell</a></h3>
-
-<p>Glance is a visual representation of Haskell. It is designed (at least initially) to be automatically generated from textual Haskell code.</p>
-
-<h3><a href="https://github.com/rgleichman/smock">smock</a></h3>
-
-<p>smock is a function mocking framework I wrote for Haskell. It is experimental and not very practical; however, I did learn about overlapping instances and data families in Haskell.</p>
-
-<h3><a href="https://github.com/rgleichman/skip">Haskell immutable skip list</a></h3>
-
-<p>This is an experimental module I wrote that can be used for quickly searching through a possibly infinite ascending list. When I tested it, the skip list was faster at creating its searchable data structure than <a href="http://hackage.haskell.org/package/containers-0.5.6.3/docs/Data-Set.html">Data.Set in containers</a>. The skip list's data structure also used less memory. However, the skip list was slower at finding elements, so it would only be faster overall if your code does few searches relative to list size.</p>
 
 <h2>Other Projects</h2>
 
